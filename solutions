@@ -1,0 +1,6 @@
+import string
+name = input("Enter your name")
+
+print(name)
+reversed_name = name[::-1]
+print(f"{reversed_name}, a thorough mess is it not {name} ?")
