@@ -1,0 +1,15 @@
+text1 = input("Print the first text: ")
+text2 = input("Print the second text: ")
+a = 0
+b = 0
+for let1 in text1:
+    if let1 in text2:
+        a += 1
+    else:
+        b += 1
+if b == 0:
+    print("All characters count in the second string")
+elif b != 0:
+    print("Not all characters count in the second string")
+else:
+    print("What does go wrong?!")
