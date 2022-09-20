@@ -1,9 +1,11 @@
 text1 = input("Print the first text: ")
 text2 = input("Print the second text: ")
 a = 0
+# not sure this variable is necessary in this code
 b = 0
 for let1 in text1:
     if let1 in text2:
+        #  the same with a variable ))
         a += 1
     else:
         b += 1
