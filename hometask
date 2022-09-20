@@ -13,5 +13,6 @@ if b == 0:
     print("All characters count in the second string")
 elif b != 0:
     print("Not all characters count in the second string")
+#  I tried with text pairs: abc/adc; Input a text/Input the text; Input a text/Input another text ))
 else:
     print("What does go wrong?!")
